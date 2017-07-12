@@ -1,0 +1,130 @@
+import turtle
+turtle = turtle.Turtle()
+turtle.position()
+
+turtle.home()
+turtle.clear()
+
+for i in range(4):
+  for x in range(4):
+　  turtle.forward(100)
+　  turtle.left(90)
+  trutle.left(-90)
+  
+print('hello')
+
+
+
+
+import turtle
+
+turtle.Turtle()
+
+
+
+turtle.home()
+
+turtle.clear()
+
+
+
+for x in range(4):
+
+  turtle.forward(100)
+
+  turtle.left(90)
+
+
+
+print('hello')
+
+151番
+import turtle
+
+t = turtle.Turtle()
+
+
+t.home()
+t.clear()
+
+for i in range(6):
+  t.forward(100)
+  t.left(60)
+
+print('hello')
+
+１５３
+def func():
+ i = 3
+ return i
+
+func()
+
+154
+def func(v):
+ i = v + 3
+ return i
+
+func(5)
+この数字を引数という英語だと５がargument、３はparamater
+
+#157
+def total(n):
+  s = 0
+  for i in range(1, n + 1):
+     S +=i
+  return s
+total(5)
+
+total(10)
+
+
+def center_circle():
+ turtle.penup()
+ turtle.forward(200)
+ turtle.left(90)
+ turtle.pendown()
+ turtle.circle(200)
+ turtle.left(90)
+ turtle.penup()
+ turtle.forward(200)
+ turtle.pendown()
+
+center_circle()
+
+#160
+def circle(x,y,r):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.forward(r)
+  tleft(90)
+  t.down()
+  t.circle(r)
+  
+  t.home()
+  t.clear()
+ 
+ circle(0,0,100)
+ circle(100,200,50)
+ 
+ #162
+ def circle(x,y,r=150):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.forward(r)
+  tleft(90)
+  t.down()
+  t.circle(r)
+  
+  t.home()
+  t.clear()
+ 
+ circle(0,0,100)
+ circle(100,200,50)
+ 
