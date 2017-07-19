@@ -1,0 +1,55 @@
+important turtle
+
+turtle.home()
+turtle.clear()
+
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+
+
+def rect(x, y, a):
+  turtle.up()
+  turtle.home()
+  turtle.forward(x)
+  turtle.left(90)
+  turtle.foerward(x)
+  turtle.down()
+  for i in range(4):
+    turtle.forward(a)
+    turtle.left(-90)
+#空行
+
+turtle.clear()
+rect(10,20,100)
+
+
+#168
+class Dice:
+  face_num = 6
+  def shoot(self):
+    return random.randint(1, self.face_num)
+#空行
+
+import random
+aDice = Dice()#クラスをもとにオブジェクトを作る
+aDice.shoot()＃オブジェクトを使う
+
+
+
+#169
+class Dice:
+  def __init__(self, val):
+    self.face_num = val
+  def shoot(self):
+    return random.randint(1, self.face_num)
+#空行
+aDice = Dice(12)
+aDice.shoot()
+
+10章飛ばし
+オブジェクト指向プログラム
+・クラス
+・クラス派生
+＃181　cuiコマンドで操作　　　　対義語はgui
+
